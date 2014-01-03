@@ -1,0 +1,10 @@
+cd $PWD/p1;rm *;
+cd ../p2;rm *;
+cd ../p3;rm *;
+cd ../p4;rm *;
+cd ../p5;rm *;
+cp ../*.class ./;
+cp ../*.class ../p1/;
+cp ../*.class ../p2/;
+cp ../*.class ../p3/;
+cp ../*.class ../p4/;
